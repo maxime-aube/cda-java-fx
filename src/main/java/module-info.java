@@ -9,6 +9,7 @@ module fr.maximob.color {
     requires org.kordamp.ikonli.javafx;
     requires org.kordamp.bootstrapfx.core;
     requires eu.hansolo.tilesfx;
+    requires color;
 
     opens fr.maximob.color to javafx.fxml;
     exports fr.maximob.color;

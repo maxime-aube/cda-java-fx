@@ -5,10 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed5ce416-7033-4b14-8a3d-fdbbfd66c705" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/TP 13 - JavaFX.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/maximob/color/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/maximob/color/HelloApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/fr/maximob/color/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fr/maximob/color/color-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Color.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Color.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/maximob/color/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/maximob/color/ColorApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/maximob/color/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/maximob/color/ColorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/fr/maximob/color/color-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fr/maximob/color/color-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fr/maximob/color/color-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fr/maximob/color/color-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,15 +39,15 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="/opt/scenebuilder/bin/SceneBuilder" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../tdd/cda-java-oop-tdd/out/artifacts/color_jar/color.jar" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.28225806" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
@@ -53,7 +57,7 @@
   </component>
   <component name="RunManager">
     <configuration name="Color" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="fr.maximob.color.HelloApplication" />
+      <option name="MAIN_CLASS_NAME" value="fr.maximob.color.ColorApplication" />
       <module name="Color" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -70,7 +74,9 @@
       <updated>1646296929826</updated>
       <workItem from="1646296931897" duration="2000" />
       <workItem from="1646296978495" duration="113000" />
-      <workItem from="1646297120084" duration="5236000" />
+      <workItem from="1646297120084" duration="8248000" />
+      <workItem from="1646314393376" duration="1000" />
+      <workItem from="1646315888677" duration="8568000" />
     </task>
     <servers />
   </component>

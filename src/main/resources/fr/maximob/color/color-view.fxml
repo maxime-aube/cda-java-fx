@@ -1,28 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.control.Label?>
-<?import javafx.scene.control.Slider?>
-<?import javafx.scene.control.TextField?>
-<?import javafx.scene.layout.AnchorPane?>
-<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
 
-
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="292.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="611.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fr.maximob.color.ColorController">
    <children>
-      <Pane layoutX="36.0" layoutY="20.0" prefHeight="253.0" prefWidth="529.0">
+      <Pane layoutX="36.0" layoutY="20.0" prefHeight="300.0" prefWidth="800.0">
          <children>
-            <Slider layoutX="24.0" layoutY="60.0" />
+            <Slider fx:id="colorRedSlider" layoutX="24.0" layoutY="60.0" />
             <Label layoutX="24.0" layoutY="34.0" text="Red" />
-            <Slider layoutX="24.0" layoutY="129.0" />
+            <Slider fx:id="colorGreenSlider" layoutX="24.0" layoutY="129.0" />
             <Label layoutX="24.0" layoutY="103.0" text="Green" />
-            <Slider layoutX="24.0" layoutY="199.0" />
+            <Slider fx:id="colorBlueSlider" layoutX="24.0" layoutY="199.0" />
             <Label layoutX="24.0" layoutY="173.0" text="Blue" />
-            <TextField layoutX="176.0" layoutY="56.0" prefHeight="24.0" prefWidth="51.0" text="91" />
-            <TextField layoutX="176.0" layoutY="124.0" prefHeight="24.0" prefWidth="51.0" text="195" />
-            <TextField layoutX="176.0" layoutY="194.0" prefHeight="24.0" prefWidth="51.0" text="146" />
-            <TextField layoutX="291.0" layoutY="56.0" prefHeight="24.0" prefWidth="134.0" text="#5BC392" />
+            <TextField fx:id="colorRedField" layoutX="176.0" layoutY="56.0" prefHeight="24.0" prefWidth="51.0" text="91" />
+            <TextField fx:id="colorGreenField" layoutX="176.0" layoutY="124.0" prefHeight="24.0" prefWidth="51.0" text="195" />
+            <TextField fx:id="colorBlueField" layoutX="176.0" layoutY="194.0" prefHeight="24.0" prefWidth="51.0" text="146" />
+            <TextField fx:id="hexValueField" layoutX="291.0" layoutY="56.0" prefHeight="24.0" prefWidth="134.0" text="#5BC392" />
             <Label layoutX="291.0" layoutY="34.0" text="Hex" />
-            <Pane layoutX="291.0" layoutY="99.0" prefHeight="118.0" prefWidth="200.0" style="-fx-background-color: #5bc392;" />
+            <Pane fx:id="resultPane" layoutX="291.0" layoutY="99.0" prefHeight="118.0" prefWidth="200.0" style="-fx-background-color: #5bc392;" />
          </children>
       </Pane>
    </children>
